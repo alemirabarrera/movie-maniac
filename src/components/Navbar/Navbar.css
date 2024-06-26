@@ -30,3 +30,7 @@
   height: 25px;
   margin-left: 7px;
 }
+
+.navbar_links > a.active {
+  font-weight: 700;
+}
