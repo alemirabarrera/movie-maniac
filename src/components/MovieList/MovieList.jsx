@@ -18,7 +18,7 @@ const MovieList = ({ type, title, emoji }) => {
 
   useEffect(() => {
     ApiCallMovies();
-  }, []);
+  }, [type]);
 
   useEffect(() => {
     if (sort.by !== "dafult") {

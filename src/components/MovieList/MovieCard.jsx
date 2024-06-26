@@ -7,8 +7,9 @@ import Star from "../../assets/glowing-star.png";
 const MovieCard = ({ dataMovie }) => {
   return (
     <a
-      href={`https://www.themoviedb.org/movie/${dataMovie.id}`}
-      target="_blank"
+      //href={`https://www.themoviedb.org/movie/${dataMovie.id}`}
+      //target="_blank"
+      href={`/movie/${dataMovie.id}`}
       className="movie_card"
     >
       <img
